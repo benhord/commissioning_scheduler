@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<ScienceCalendar xmlns="/pandora/calendar/">
+<Meta Valid_From="2025-04-25 00:00:00" Expires="2026-04-24 12:29:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 40.0, 63.0" Created="2024-03-15 14:20:52.506870" Delivery_Id=""/>
+    <Visit>
+        <ID>0330</ID>
+        <Observation_Sequence>
+            <ID>001</ID>
+            <Observational_Parameters>
+                <Target>G3547915223000134144</Target>
+                <Priority>1</Priority>
+                <Timing>
+                    <Start>2025-09-18 22:10:14.187181</Start>
+                    <Stop>2025-09-18 23:16:20.721181</Stop>
+                </Timing>
+                <Boresight>
+                    <RA>174.2471975</RA>
+                    <DEC>-16.8307524</DEC>
+                </Boresight>
+            </Observational_Parameters>
+            <Payload_Parameters>
+                <AcquireInfCamImages>
+                    <AverageGroups>0</AverageGroups>
+                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
+                    <ROI_StartX>1968</ROI_StartX>
+                    <ROI_StartY>824</ROI_StartY>
+                    <ROI_SizeX>80</ROI_SizeX>
+                    <ROI_SizeY>400</ROI_SizeY>
+                    <TargetID>G3547915223000134144</TargetID>
+                    <SC_Resets1>1</SC_Resets1>
+                    <SC_Resets2>1</SC_Resets2>
+                    <SC_DropFrames1>0</SC_DropFrames1>
+                    <SC_DropFrames2>0</SC_DropFrames2>
+                    <SC_DropFrames3>0</SC_DropFrames3>
+                    <SC_ReadFrames>24</SC_ReadFrames>
+                    <SC_Groups>1</SC_Groups>
+                    <SC_Integrations>429</SC_Integrations>
+                </AcquireInfCamImages>
+                <AcquireVisCamScienceData>
+                    <NumExposuresMax>18000</NumExposuresMax>
+                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
+                    <ROI_StartX>512</ROI_StartX>
+                    <ROI_StartY>512</ROI_StartY>
+                    <ROI_SizeX>1024</ROI_SizeX>
+                    <ROI_SizeY>1024</ROI_SizeY>
+                    <TargetID>G3547915223000134144</TargetID>
+                    <TargetRA>174.2471975</TargetRA>
+                    <TargetDEC>-16.8307524</TargetDEC>
+                    <StarRoiDetMethod>1</StarRoiDetMethod>
+                    <FramesPerCoadd>50</FramesPerCoadd>
+                    <ExposureTime_us>200000</ExposureTime_us>
+                    <MaxNumStarRois>9</MaxNumStarRois>
+                    <StarRoiDimension>50</StarRoiDimension>
+                    <NumTotalFramesRequested>18000</NumTotalFramesRequested>
+                </AcquireVisCamScienceData>
+            </Payload_Parameters>
+        </Observation_Sequence>
+    </Visit>
+</ScienceCalendar>

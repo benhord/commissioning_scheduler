@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<ScienceCalendar xmlns="/pandora/calendar/">
+<Meta Valid_From="2025-04-25 00:00:00" Expires="2026-04-24 12:29:00" Calendar_Weights="0.0, 0.0, 1.0" Ephemeris="sma=6828.14, ecc=0.0, inc=97.2188, aop=0.0, raan=303.263, ta=0.0" Keepout_Angles="90.0, 40.0, 63.0" Created="2024-03-15 14:20:52.506870" Delivery_Id=""/>
+    <Visit>
+        <ID>0315</ID>
+        <Observation_Sequence>
+            <ID>012</ID>
+            <Observational_Parameters>
+                <Target>G4017930742788615552</Target>
+                <Priority>1</Priority>
+                <Timing>
+                    <Start>2025-09-18 15:46:48.128716</Start>
+                    <Stop>2025-09-18 15:48:48.128716</Stop>
+                </Timing>
+                <Boresight>
+                    <RA>176.66289716173299</RA>
+                    <DEC>26.972976969594303</DEC>
+                </Boresight>
+            </Observational_Parameters>
+            <Payload_Parameters>
+                <AcquireVisCamScienceData>
+                    <NumExposuresMax>600</NumExposuresMax>
+                    <IncludeFieldSolnsInResp>1</IncludeFieldSolnsInResp>
+                    <ROI_StartX>512</ROI_StartX>
+                    <ROI_StartY>512</ROI_StartY>
+                    <ROI_SizeX>1024</ROI_SizeX>
+                    <ROI_SizeY>1024</ROI_SizeY>
+                    <TargetID>G4017930742788615552</TargetID>
+                    <TargetRA>176.729457161733</TargetRA>
+                    <TargetDEC>27.0395369695943</TargetDEC>
+                    <StarRoiDetMethod>0</StarRoiDetMethod>
+                    <numPredefinedStarRois>2</numPredefinedStarRois>
+                    <PredefinedStarRoiRa>
+                        <RA1>176.729457161733</RA1>
+                        <RA2>176.738165333805</RA2>
+                    </PredefinedStarRoiRa>
+                    <PredefinedStarRoiDec>
+                       <Dec1>27.0395369695943</Dec1>
+                       <Dec2>27.0230083215405</Dec2>
+                    </PredefinedStarRoiDec>
+                    <FramesPerCoadd>1</FramesPerCoadd>
+                    <ExposureTime_us>200000</ExposureTime_us>
+                    <MaxNumStarRois>0</MaxNumStarRois>
+                    <StarRoiDimension>200</StarRoiDimension>
+                    <NumTotalFramesRequested>600</NumTotalFramesRequested>
+                </AcquireVisCamScienceData>
+            </Payload_Parameters>
+        </Observation_Sequence>
+    </Visit>
+</ScienceCalendar>
